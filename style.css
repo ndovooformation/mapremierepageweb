@@ -1,7 +1,22 @@
-p {
-    color: red;
+
+body {
+    font-family: 'Oswald', sans-serif;
 }
 
-#paragraphe1 {
-    color: green;
+/* Pour toutes les balises <p>, j'applique le style ci-dessous.*/
+p {
+    color: red; /* La couleur du texte est rouge */
 }
+
+/* Je décris le style appliqué à la balise dont l'identfiant est "paragraphe1" */
+#paragraphe1 {
+    color: green; /*La couleur du texte est verte */
+    font-family: 'Trirong', sans-serif;
+}
+
+/*Je décris le style appliqué aux membres de la classe rsma*/
+.rsma {
+    color:blue; /* Couleur du texte */
+    font-size:larger; /* Taille de la police */
+    font-family: 'Sofia', sans-serif; /* nom de la police du texte */
+}    
