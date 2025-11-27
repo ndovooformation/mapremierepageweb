@@ -1,0 +1,54 @@
+
+/**/
+
+*{
+  box-sizing: border-box;  
+}
+
+/* Mise en forme pour l'en-tête*/
+header{
+    background-color: #666; /* L'arrière plan est colorié en gris*/
+    padding: 30px; /* L'en-tête est élargie de 30px de hauteur*/
+    text-align: center; /*Le texte est aligné au centre*/
+    color: aliceblue; /* Le texte est de couleur aliceblue */
+    font-size: 35px; /* La taille de la police est 35px */
+}
+
+/* Mise en forme de la section. J'utilise la notion de flexbox*/
+section{
+    /* Optimise l'affichage sur différentes tailles d'écrans*/
+    display: -webkit-flex; 
+    display: flex;
+}
+
+/*Mise en forme de la barre de navigation <nav> */
+nav{
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: #ccc;
+    padding: 20px;
+}
+
+/* Mise en forme de la liste UL de la balise <nav>*/
+nav ul {
+    list-style-type: none; /* Je retire le puce de la liste*/
+    padding: 0;
+}
+
+/* Mise en forme de la vue article <article> */
+article {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f1;
+    padding: 10px;
+}
+
+/* Mise en forme du pied de page <footer> */
+footer{
+    background-color: #777;
+    padding: 10px;
+    text-align: center;
+    color:aliceblue;
+}
