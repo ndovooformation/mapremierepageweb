@@ -1,0 +1,22 @@
+
+form{
+    background: goldenrod;
+}
+
+div{
+    display: inline;
+    margin-left: 15px;
+}
+
+/*Je sélectionne uniquemement les input de types text, date et email*/
+input[type=text], input[type=date], [type=email]{/**/
+   padding: 7px; /*Ajoute un espace à l'intérieur de la balise <input>*/
+   margin: 15px;
+   border: solid 2px;
+   border-radius: 7px;
+}
+
+input[type=submit] {
+    margin-bottom: 15px;
+    margin-left: 15px;
+}
